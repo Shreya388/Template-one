@@ -1,0 +1,288 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 500 !important;
+}
+
+h3 {
+    font-weight: 500 !important;
+    color: #000;
+}
+
+.video-container {
+    height: 700px;
+}
+
+.form-control {
+    background: #ededff;
+    border: 1px solid #e3e3ff !important;
+    padding-bottom: 15px !important;
+    border-radius: 16px !important;
+    padding-top: 15px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.sendBtn {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.heading {
+    color: rgba(12, 12, 12, 0.877);
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.heading-cont {
+    padding-bottom: 200px;
+    z-index: 1;
+    width: 90%;
+    padding-top: 200px;
+    position: absolute;
+}
+
+.heading-cont p {
+    text-align: justify;
+    word-spacing: 2px;
+}
+
+.navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+    background-color: white;
+}
+
+
+/* Style for the navbar when scrolled */
+.navbar.scrolled {
+    content: '';
+    animation: fadeInDown 1s ease forwards;
+    box-shadow: 0px 10px 15px -3px rgb(132 149 203 / 6%);
+    background: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.64);
+}
+
+/* color when scrolled */
+.navbar.scrolled .link {
+    color: #575757;
+}
+
+.link {
+    color: #3f3f3f;
+    font-weight: 400;
+}
+
+.link:hover {
+    color: #3f3f3f;
+}
+
+.link:visited {
+    color: #3f3f3f;
+}
+
+.navbar.scrolled .navbar-brand {
+    color: black;
+}
+
+.logo {
+    color: white;
+}
+
+.nav-item {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.service-card {
+    transition: transform 0.3s;
+}
+
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.footer {
+    background-color: #181925;
+    color: white;
+    padding: 20px 0;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .row {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: left;
+}
+
+.input-group .form-control {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.input-group .btn {
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.nav-item.dropdown .dropdown-toggle::after {
+    display: none;
+}
+
+.myCard:hover {
+    animation: fadeIn 2s;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.card-body .icon i {
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+#scrollTopButton {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    z-index: 19;
+    background-color: white !important;
+    color: rgb(58, 58, 58) !important;
+    transition: background-color 0.3s ease-in-out;
+    border: 1px solid #b9b9b9 !important;
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+}
+
+#scrollTopButton:hover {
+    background-color: white !important;
+    color: black;
+}
+
+/* Ensures the icon stays centered in the button */
+#scrollTopButton i {
+    font-size: 12px !important;
+}
+
+/* Make the dropdown visible on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    /* Show dropdown on hover */
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Transition effect for smoothness */
+.dropdown-menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Prevent hiding the dropdown when clicking inside */
+.nav-item.dropdown .dropdown-menu {
+    display: none;
+}
+
+.nav-item.dropdown.show .dropdown-menu {
+    display: block;
+}
+
+.heading-container {
+    padding-top: 150px;
+}
+
+.heading-container h3 {
+    color: white;
+    font-size: 4.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.email-subscription input[type="email"] {
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.email-subscription button {
+    border-radius: 10px;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.email-subscription button:hover {
+    background-color: #3498db;
+}
+
+
+.custom-padding {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.img-card {
+    height: 400px;
+    max-width: 400px;
+    object-fit: cover;
+    background-position: bottom;
+    filter: brightness(0.7);
+}
+
+.img-big {
+    height: 825px;
+    max-width: 400px;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.head-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.header-img{
+    margin-top: -100px !important;
+}
