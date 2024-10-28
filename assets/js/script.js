@@ -46,7 +46,6 @@ document.getElementById("scrollTopButton").addEventListener("click", function (e
 
 // Wait for the entire page to load
 window.addEventListener("load", function () {
-    // Hide the loader
     const loader = document.getElementById("loader");
     const content = document.getElementById("content");
 
@@ -58,9 +57,8 @@ window.addEventListener("load", function () {
             if (content) {
                 content.style.display = "block";
             }
-        }, 500);
+        }, 100);
     } else {
-        // If loader doesn't exist, just show the content
         if (content) {
             content.style.display = "block";
         }
@@ -75,16 +73,5 @@ document.addEventListener('DOMContentLoaded', () => {
         distance: '20px',
         duration: 1000,
         easing: 'ease-in-out'
-    });
-});
-
-
-// for typing effect
-document.addEventListener('DOMContentLoaded', function () {
-    var typed = new Typed('#typed', {
-        strings: ['Today', 'Tomorrow'],
-        typeSpeed: 100,
-        backSpeed: 20,
-        loop: true
     });
 });
