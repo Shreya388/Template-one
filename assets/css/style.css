@@ -380,6 +380,8 @@ body.dropdown-open { background-color: black !important; transition: background-
 
 /* Media Queries for Smartphones (576px and below) */
 @media (max-width: 576px) {
+
+
   .heading { font-size: 1.5rem; width: 370px !important; }
 
   .heading-cont { padding-top: 200px; padding-bottom: 120px; margin-top: -99px !important; }
@@ -390,7 +392,7 @@ body.dropdown-open { background-color: black !important; transition: background-
 
   .navbar { padding: 8px 15px; }
 
-  .navbar .get-started { display: none !important; }
+  .navbar .getstarted-btn{ display: none;}
 
   .nav-item { padding-left: 0.4rem; padding-right: 0.4rem; }
 
