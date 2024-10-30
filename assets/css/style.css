@@ -71,6 +71,10 @@ h3 {
     background-color: white;
 }
 
+.navbar li{
+    list-style-type: none !important;
+}
+
 
 /* Style for the navbar when scrolled */
 .navbar.scrolled {
