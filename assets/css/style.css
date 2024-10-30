@@ -3,35 +3,47 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .logo {
     height: 40px;
 }
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
 .header-box2 {
     position: absolute;
-    top: 3rem;
+    top: 8rem;
     right: 100px;
-    animation-duration: 2s;
-    width: 20%;
+    animation-duration: 6s;
+    width: 18%;
 }
+
 .header-box1 {
     position: absolute;
-    top: 35rem;
-    animation-duration: 2s;
+    top: 40rem;
+    animation-duration: 6s;
 }
+
 h1 {
     font-weight: 500 !important;
 }
+
 h3 {
     font-weight: 500 !important;
     color: #000;
 }
+
 .header-btn {
     margin-top: 1rem;
     margin-right: 10px;
 }
+
 .video-container {
     height: 700px;
 }
+
 .form-control {
     background: #ededff;
     border: 1px solid #e3e3ff !important;
@@ -41,16 +53,19 @@ h3 {
     padding-left: 20px !important;
     padding-right: 20px !important;
 }
+
 .sendBtn {
     padding: 20px;
     border-radius: 20px;
 }
+
 .heading {
     color: rgba(12, 12, 12, 0.877);
     font-size: 3em;
     font-family: 'Poppins', sans-serif;
     font-weight: 600 !important;
 }
+
 .navbar {
     position: fixed !important;
     top: 0;
@@ -59,9 +74,11 @@ h3 {
     z-index: 20;
     background-color: white;
 }
-.navbar li{
+
+.navbar li {
     list-style-type: none !important;
 }
+
 /* Style for the navbar when scrolled */
 .navbar.scrolled {
     content: '';
@@ -75,10 +92,12 @@ h3 {
 .navbar.scrolled .link {
     color: #575757;
 }
+
 .link {
     color: #3f3f3f;
     font-weight: 400;
 }
+
 .link:hover {
     color: #3f3f3f;
 }
@@ -86,19 +105,24 @@ h3 {
 .link:visited {
     color: #3f3f3f;
 }
+
 .navbar.scrolled .navbar-brand {
     color: black;
 }
+
 .logo {
     color: white;
 }
+
 .nav-item {
     padding-left: 0.3rem;
     padding-right: 0.3rem;
 }
+
 .section {
     padding: 60px 0;
 }
+
 .footer {
     background-color: #181925;
     color: white;
@@ -108,42 +132,57 @@ h3 {
     position: relative;
     overflow: hidden;
 }
+
+.header{
+    margin-top: 110px !important;
+}
+
 .footer a {
     color: white;
 }
+
 .footer a:hover {
     text-decoration: underline;
 }
+
 .footer .row {
     padding-top: 200px;
     padding-bottom: 100px;
     text-align: left;
 }
+
 .input-group .form-control {
     border-radius: 0.25rem 0 0 0.25rem;
 }
+
 .input-group .btn {
     border-radius: 0 0.25rem 0.25rem 0;
 }
+
 .nav-item.dropdown .dropdown-toggle::after {
     display: none;
 }
+
 .section-title {
     font-size: 2.5rem;
     font-weight: bold;
 }
+
 .card-body .icon i {
     margin-bottom: 15px;
 }
+
 .card-title {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 15px;
 }
+
 .card-text {
     font-size: 1rem;
     color: #6c757d;
 }
+
 #scrollTopButton {
     position: fixed;
     bottom: 20px;
@@ -158,18 +197,21 @@ h3 {
     font-size: 15px;
     padding: 10px 17px !important;
 }
+
 #scrollTopButton:hover {
     background-color: white !important;
     background-color: #222 !important;
     border: 1px solid #222 !important;
     color: rgb(214, 214, 214) !important;
 }
+
 /* dropdown visible on hover */
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
     opacity: 1;
     visibility: visible;
 }
+
 /* Transition effect for smoothness */
 .dropdown-menu {
     display: none;
@@ -177,6 +219,7 @@ h3 {
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
+
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -185,6 +228,7 @@ h3 {
     animation: fadeIn 0.6s ease-in-out;
     transition: 0.1s;
 }
+
 /* Prevent hiding the dropdown when clicking inside */
 .nav-item.dropdown .dropdown-menu {
     background-color: #fff;
@@ -192,25 +236,31 @@ h3 {
     border-bottom: 1px solid #eee !important;
     animation: fadeOut 0.6s ease-in-out;
 }
+
 .nav-item.dropdown.show .dropdown-menu:hover {
     display: block;
 }
+
 .email-subscription input[type="email"] {
     border-radius: 30px;
     padding: 15px;
 }
+
 .email-subscription button {
     border-radius: 10px;
     padding: 15px;
     transition: background-color 0.3s ease;
 }
+
 .email-subscription button:hover {
     background-color: #3498db;
 }
+
 .custom-padding {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 }
+
 .img-card {
     height: 400px;
     max-width: 400px;
@@ -218,41 +268,52 @@ h3 {
     background-position: bottom;
     filter: brightness(0.7);
 }
+
 .img-big {
     height: 825px;
     max-width: 400px;
     object-fit: cover;
     filter: brightness(0.7);
 }
+
 .header-img {
     margin-top: -100px !important;
 }
+
 .btn {
     border-radius: 33px;
     font-size: 0.9em;
 }
+
 .navbar-expand-md .navbar-nav .dropdown-menu {
     border-radius: 0 !important;
     border: 0;
+    margin-top: 3px;
 }
+
 .card {
     border-radius: 20px !important;
     border: 1px solid #eee !important;
     box-shadow: none;
 }
+
 .card-img {
     border-radius: 20px !important;
     border: none !important;
 }
+
 .header-img {
     border-radius: 50% !important;
 }
+
 .card-body {
     padding: 30px 40px !important;
 }
+
 .animate__animated {
     will-change: transform, opacity;
 }
+
 /* Example animation */
 @keyframes fadeIn {
     from {
@@ -269,25 +330,30 @@ h3 {
 .fadeIn {
     animation: fadeIn 0.5s ease-out forwards;
 }
+
 .btn {
     padding: 10px 20px;
 }
+
 /* Container for the carousel */
 .brand-carousel {
     overflow: hidden;
     position: relative;
     width: 100%;
 }
+
 .brand-track {
     display: flex;
     width: calc(100%* 2);
     animation: scroll 20s linear infinite;
 }
+
 .brand-item {
     flex: 0 0 auto;
     padding: 0 3px;
     width: auto;
 }
+
 .brand-item img {
     width: auto;
     height: 110px;
@@ -295,6 +361,7 @@ h3 {
     object-fit: contain;
     filter: opacity(0.9);
 }
+
 @keyframes scroll {
     0% {
         transform: translateX(0);
@@ -309,6 +376,7 @@ h3 {
     font-size: 14px !important;
     color: #eee;
 }
+
 .menu {
     position: absolute !important;
     left: 0;
@@ -317,44 +385,56 @@ h3 {
     border-bottom: 2px solid blue;
     padding-top: 2rem;
 }
+
 body.dropdown-open {
     background-color: black !important;
     transition: background-color 0.3s ease;
 }
+
 .social-icon {
     font-size: 20px;
 }
+
 .dropdown-link {
     display: flex;
 }
+
 /* Media Queries for Tablets (768px and below) */
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
     .heading {
         font-size: 1.5rem;
     }
+
     .custom-padding {
         padding-top: 8rem !important;
         padding-bottom: 8rem !important;
     }
+
     .navbar {
         padding: 10px 20px;
     }
+
     .nav-item {
         padding-left: 0.6rem;
         padding-right: 0.6rem;
     }
+
     .header-img {
         margin-top: 0px !important;
     }
+
     .link {
         font-size: 14px;
     }
+
     .getstarted-btn {
         display: none !important;
     }
+
     .header-box2 {
         display: none;
     }
+
     .header-box1 {
         display: none;
     }
@@ -365,67 +445,106 @@ body.dropdown-open {
     .navbar.scrolled {
         display: none;
     }
+    .card-body {
+        padding: 20px 30px !important;
+    }
+    .logo {
+        height: 20px;
+    }
+
     .heading {
         font-size: 1.5rem;
     }
+
     .header-img {
         margin-top: 0 !important;
     }
+
+    h3{
+        font-size: 1.3rem !important;
+    }
+
+    h2{
+        font-size: 1.5rem !important;
+    }
+
+    p{
+        font-size: 14px !important;
+    }
+
     .custom-padding {
-        padding-top: 6rem !important;
-        padding-bottom: 6rem !important;
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
     }
+
     .navbar {
-        padding: 8px 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
     }
+
     .navbar .getstarted-btn {
         display: none;
     }
+
     .nav-item {
         padding-left: 0.4rem;
         padding-right: 0.4rem;
     }
+
     .link {
         font-size: 12px;
     }
+
     .logo {
         font-size: 1.2rem;
     }
+
     .list-inline-item a {
         font-size: 18px;
     }
+
     .list-inline-item a span {
         padding: 7px;
     }
+
     .btn-primary {
         font-size: 1rem;
         padding: 10px 20px;
     }
+
     .dropdown-menu {
         position: static;
         width: 100%;
         text-align: center;
     }
+
     .nav-item.dropdown:hover .dropdown-menu {
-        margin-top: 5px;
+        margin-top: -5px;
     }
+
     .dropdown-menu {
         margin-top: -10px;
         max-height: 630px;
         overflow-y: auto;
     }
+
     .footer .row {
         padding-top: 110px;
         padding-bottom: 110px;
         text-align: center;
     }
+
     .header-box2 {
         display: none;
     }
+
     .header-box1 {
         display: none;
     }
 }
+
 /* Scroll-to-top button adjustments */
 #scrollTopButton {
     bottom: 20px;
