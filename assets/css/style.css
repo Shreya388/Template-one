@@ -59,7 +59,7 @@ h3 {
     color: rgba(12, 12, 12, 0.877);
     font-size: 3em;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 .navbar {
