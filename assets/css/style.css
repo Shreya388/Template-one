@@ -449,7 +449,7 @@ body.dropdown-open {
         padding: 20px 30px !important;
     }
     .logo {
-        height: 20px;
+        height: 30px;
     }
 
     .heading {
@@ -461,27 +461,27 @@ body.dropdown-open {
     }
 
     h3{
-        font-size: 1.3rem !important;
+        font-size: 1.9rem !important;
     }
 
     h2{
-        font-size: 1.5rem !important;
+        font-size: 2rem !important;
     }
 
     p{
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
 
     .custom-padding {
-        padding-top: 4rem !important;
-        padding-bottom: 4rem !important;
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
     }
 
     .navbar {
         padding-left: 5px;
         padding-right: 5px;
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
     }
 
     .navbar .getstarted-btn {
@@ -495,10 +495,6 @@ body.dropdown-open {
 
     .link {
         font-size: 12px;
-    }
-
-    .logo {
-        font-size: 1.2rem;
     }
 
     .list-inline-item a {
@@ -542,6 +538,10 @@ body.dropdown-open {
 
     .header-box1 {
         display: none;
+    }
+
+    .header{
+        margin-top: 5rem !important;
     }
 }
 
