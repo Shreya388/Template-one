@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Customization Instructions</title>
+    <link rel="Stylesheet" href="./assets/css/instruction.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+</head>
+
+<body>
+    <h1>Instructions for Customizing Your Website Template</h1>
+    <p>Welcome! This guide will help you customize different elements of your website template.</p>
+
+    <h2>1. Styling and Appearance</h2>
+    <h3>Main Stylesheet</h3>
+    <p>The main styling file is located at <code>assets/css/style.css</code>. Open this file to change the layout,
+        typography, colors, and other styling options.</p>
+    <p>Example of modifying the body background color in <code>style.css</code>:</p>
+    <pre><code>body {
+    background-color: #f0f0f0;
+}</code></pre>
+
+    <h3>Bootstrap Stylesheet</h3>
+    <p>The Bootstrap CSS file is also in <code>assets/css/</code>. If you need to override specific Bootstrap styles,
+        you can add those changes in <code>style.css</code> after the Bootstrap file is linked in
+        <code>index.html</code>.</p>
+
+    <h3>Loader Styling</h3>
+    <p>To modify the loader appearance, edit the <code>page-loader.css</code> file in <code>assets/css/</code>. This
+        file controls the animations and styles of the loading screen.</p>
+    <p>Example of changing loader background color in <code>page-loader.css</code>:</p>
+    <pre><code>#loader {
+    background-color: #ffffff;
+}</code></pre>
+
+    <h2>2. JavaScript Files</h2>
+    <h3>Main JavaScript File</h3>
+    <p>Your main JavaScript functions are stored in <code>assets/js/script.js</code>. Open this file to add new
+        functions, modify existing functionality, or integrate plugins.</p>
+    <p>To add a new function in <code>script.js</code>, you can do something like this:</p>
+    <pre><code>function newFeature() {
+    console.log("New feature added!");
+}</code></pre>
+
+    <h3>Bootstrap JavaScript</h3>
+    <p>The Bootstrap JavaScript file is also located in <code>assets/js/</code>. This file provides interactive features
+        like modals and dropdowns. Ensure that the jQuery library is loaded if you are using older Bootstrap versions.
+    </p>
+
+    <h2>3. Adding Content</h2>
+    <p>To update text, images, and other content, open <code>index.html</code> and locate the specific sections you want
+        to edit.</p>
+    <p>For example, to change a heading:</p>
+    <pre><code>&lt;h1&gt;Welcome to My Website&lt;/h1&gt;</code></pre>
+</body>
+</html>
