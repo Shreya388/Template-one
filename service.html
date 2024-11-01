@@ -355,10 +355,13 @@
         <div class="container text-center">
             <h3 class="mb-4">Stay Updated with Our Latest News</h3>
             <p class="mb-4">Subscribe to our newsletter for updates on services, products, and special offers.</p>
-            <form style="display: flex;" method="post">
+            <form id="newsletterForm" style="display: flex;" method="post" onsubmit="return handleFormSubmit(event)">
                 <input type="email" class="form-control form-control-lg" placeholder="Enter your email" required>
                 <button type="submit" class="btn btn-dark btn-lg btn-block">Subscribe</button>
             </form>
+            <div id="successMessage" class="alert alert-success mt-4" style="display: none;">
+                Thank you for subscribing to our newsletter!
+            </div>
         </div>
     </section>
     <!-- footer -->

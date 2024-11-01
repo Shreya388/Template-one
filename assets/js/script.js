@@ -68,3 +68,17 @@ document.addEventListener('DOMContentLoaded', () => {
         easing: 'ease-in-out'
     });
 });
+
+// this is js for newsletter form
+function handleFormSubmit(event) {
+    event.preventDefault(); // Prevent form from submitting normally
+
+    // Show the success message
+    document.getElementById("successMessage").style.display = "block";
+
+    // Optional: Clear the form
+    document.getElementById("newsletterForm").reset();
+
+    // Note: For a real-world application, you would add AJAX here to submit form data to the server
+    return false;
+}
